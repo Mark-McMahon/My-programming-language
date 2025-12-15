@@ -1,0 +1,14 @@
+START
+    x := 2;
+    y := 5;
+    z := x + y * 2;
+    result := x - - y * (z / 2 + (3 * 4));
+
+    START
+        a := +15;
+        b := -7;
+        nested := a + b * 2
+    END;
+
+    final := result + nested - 1
+END.
